@@ -1,1 +1,1 @@
-<img src="{{ .Destination | safeURL | relURL }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }} loading="lazy" />
+<img src="{{ .Destination | strings.TrimPrefix "/" | relURL }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }} loading="lazy" />
