@@ -1,0 +1,31 @@
+baseURL = "https://dkcrw.com/"
+title = "dkcrw"
+theme = "archie"
+languageCode = "en-gb"
+[pagination]
+  pagerSize = 15
+
+[params]
+  mode = "light"
+  description = "Personal blog of Daniel Crewe"
+  subtitle = "Personal blog of Daniel Crewe"
+  favicon = "/images/2025/11/Ting1.2-removebg-preview.png"
+  mainSections = ["blog"]
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/blog"
+weight = 2
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 3
+
+[markup.goldmark.renderer]
+  unsafe = true
