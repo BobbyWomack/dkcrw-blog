@@ -1,5 +1,5 @@
 ---
-title: "20251121 Things I learned working in digital sustainability"
+title: "20251121 Can tech be sustainable?"
 date: 2025-11-21
 feature_image: "/images/2025/11/ual2.png"
 ---
