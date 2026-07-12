@@ -1,0 +1,13 @@
+{{ define "main" }}
+  {{ .Content }}
+  <table class="time-list">
+    <tbody>
+      {{ range where .Site.RegularPages "Section" "blog" }}
+      <tr>
+        <td class="time-list__date">{{- partial "date" .Date -}}</td>
+        <td class="time-list__title"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></td>
+      </tr>
+      {{ end }}
+    </tbody>
+  </table>
+{{ end }}

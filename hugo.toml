@@ -1,16 +1,16 @@
 baseURL = "https://dkcrw.com/"
 title = "dkcrw"
-theme = "archie"
+theme = "shibui"
 languageCode = "en-gb"
+
 [pagination]
   pagerSize = 15
 
 [params]
-  mode = "light"
   description = "Personal blog of Daniel Crewe"
-  subtitle = "Personal blog of Daniel Crewe"
-  favicon = "/favicon.png"
-  mainSections = ["blog"]
+
+[params.author]
+  name = "Daniel Crewe"
 
 [[menu.main]]
 name = "Home"
@@ -18,7 +18,7 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-name = "All posts"
+name = "Posts"
 url = "/blog"
 weight = 2
 
