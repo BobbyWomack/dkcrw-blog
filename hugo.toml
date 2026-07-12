@@ -9,7 +9,7 @@ languageCode = "en-gb"
   mode = "light"
   description = "Personal blog of Daniel Crewe"
   subtitle = "Personal blog of Daniel Crewe"
-  favicon = "/images/2025/11/Ting1.2-removebg-preview.png"
+  favicon = "/favicon.png"
   mainSections = ["blog"]
 
 [[menu.main]]
